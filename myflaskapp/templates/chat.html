@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Chatbot</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Your question:</h1>
+        <p class="question">{{ question }}</p>
+        <h2>AI's answer:</h2>
+        <p class="answer">{{ answer }}</p>
+        <a href="/">Ask another question</a>
+    </div>
+</body>
+</html>
